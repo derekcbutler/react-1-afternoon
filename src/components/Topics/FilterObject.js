@@ -1,8 +1,8 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 
 export default class FilterObject extends Component {
    
-    constructor(){
+    constructor() {
         super();
     
         this.state = {
@@ -10,17 +10,17 @@ export default class FilterObject extends Component {
                 {
                     name: 'Derek',
                     age: 22,
-                    hairColor: 'blonde'
+                    hairColor: 'blonde',
                 },
                 {
                     name: 'Tavas',
                     age: 21,
-                    title: 'dummy'
+                    title: 'dummy',
                 },
                 {
                     name: 'Jeordin',
                     age: 21,
-                    job: 'kinda teacher'
+                    job: 'kinda teacher',
                 }
             ],
             userInput: '',
